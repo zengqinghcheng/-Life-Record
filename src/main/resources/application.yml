@@ -1,0 +1,7 @@
+server:
+  port: @project.port@
+spring:
+  application:
+     name: life-record
+  profiles:
+     active: '@project.active@'
